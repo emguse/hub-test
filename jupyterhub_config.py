@@ -19,3 +19,4 @@ c.DockerSpawner.volumes = {'jupyterhub-user-{username}': notebook_dir}
 c.DockerSpawner.container_image = 'hub/hub1'
 
 c.Authenticator.allowed_users = {'admin', 'user1'}
+c.Authenticator.allow_existing_users = True

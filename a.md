@@ -25,3 +25,6 @@ sudo jupyterhub
 
 
 RUN conda install jupytext jupyterlab-lsp python-lsp-server
+
+
+http://SERVER_IP:8000/hub/authorize
