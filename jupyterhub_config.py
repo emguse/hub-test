@@ -17,3 +17,5 @@ notebook_dir = '/home/jovyan/work'
 c.DockerSpawner.notebook_dir = notebook_dir
 c.DockerSpawner.volumes = {'jupyterhub-user-{username}': notebook_dir}
 c.DockerSpawner.container_image = 'hub/hub1'
+
+c.Authenticator.allowed_users = {'admin', 'user1'}

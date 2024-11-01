@@ -8,7 +8,6 @@ RUN conda install optuna keras
 RUN conda install python-docx pypdf
 RUN conda install Alembic psycopg sqlmodel
 RUN conda install requests pyyaml pytest boto3 python-dotenv
-RUN conda install jupytext jupyterlab-lsp python-lsp-server
 RUN pip install mip japanize-matplotlib opencv-contrib-python-headless
 RUN conda install janome
 
