@@ -1,5 +1,3 @@
-# hub-test
-
 ```shell
 conda create -n jupyterhub312 python=3.12
 conda activate jupyterhub312
@@ -22,3 +20,4 @@ sudo jupyterhub
 
 - pip
 - docker-7.1.0 dockerspawner-13.0.0 escapism-1.0.1
+
