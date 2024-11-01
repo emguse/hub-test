@@ -20,4 +20,4 @@ sudo jupyterhub
 
 - pip
 - docker-7.1.0 dockerspawner-13.0.0 escapism-1.0.1
-
+- cffi-1.15.0 contourpy-1.3.0 cycler-0.12.1 fonttools-4.54.1 japanize-matplotlib-1.1.3 kiwisolver-1.4.7 matplotlib-3.9.2 mip-1.14.2 opencv-contrib-python-headless-4.10.0.84 pillow-11.0.0 pyparsing-3.2.0
